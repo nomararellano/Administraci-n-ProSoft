@@ -10,7 +10,8 @@ do{
     printf("1- SUMAR\n");
     printf("2- RESTAR\n");
     printf("3.-MULTIPLICAR\n");
-    printf("3- Salir\n");
+    printf("4.- Dividir/n");
+    printf("5- Salir\n");
 
     printf("\nOpcion:");
     scanf("%d" ,&option);
@@ -42,11 +43,24 @@ do{
     scanf("%d" ,&b);
     printf("\nLA MULTIPLICACION DE LOS NUMEROS ES:  %d  \n" ,a*b);
     system("pause");
-    system("cls");
+    system("cls");    
+    break;
+ case 4:   
+    printf("\nIngresa el primer numero: ");
+    scanf("%d" ,&a);
+    printf("\nIngresa el primer numero: ");
+    scanf("%d" ,&b);
+    if(b==0){
+    printf("\nNo se puede dividir entre cero intentalo nuevamente");
+    } else {
+    printf("\nLA DIVISION DE LOS NUMEROS ES:  %d  \n" ,a/b);
+    }
+    system("pause");
+    system("cls"); 
     break;
     }
     
-} while(option!=3);
+} while(option!=5);
 
 printf("\nADIOS");
 return 0;
