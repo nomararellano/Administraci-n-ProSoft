@@ -9,6 +9,7 @@ do{
 
     printf("1- SUMAR\n");
     printf("2- RESTAR\n");
+    printf("3.-MULTIPLICAR\n");
     printf("3- Salir\n");
 
     printf("\nOpcion:");
@@ -34,7 +35,17 @@ do{
     system("pause");
     system("cls");
     break;
+ case 3: 
+    printf("\nIngresa el primer numero: ");
+    scanf("%d" ,&a);
+    printf("\nIngresa el primer numero: ");
+    scanf("%d" ,&b);
+    printf("\nLA MULTIPLICACION DE LOS NUMEROS ES:  %d  \n" ,a*b);
+    system("pause");
+    system("cls");
+    break;
     }
+    
 } while(option!=3);
 
 printf("\nADIOS");
