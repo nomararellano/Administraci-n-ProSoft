@@ -58,7 +58,7 @@ do{
     system("pause");
     system("cls"); 
     break;
-    }
+    
     
 } while(option!=5);
 
